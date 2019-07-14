@@ -1,0 +1,33 @@
+{% extends 'carbike/base.html' %}
+{% block title %}車・バイク推定結果{% endblock %}
+
+{% block content %}
+<div>
+    <h4 class="mt-4 mb-5 border-bottom">Prediction Result of Car and Bike</h4>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <td>File Name</td>
+                <td>{{ photo_name }}</td>
+            </tr>
+            <tr>
+                <td>File File</td>
+                <td><img class='preview-img' src={{ photo_data }}></img>
+                </td>
+            </tr>
+            <tr>
+                <td>Prediction Label</td>
+                <td>{{ predicted }}</td>
+            </tr>
+            <tr>
+                <td>Prediction Probability</td>
+                <td>{{ percentage }} %</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href = "{% url 'carbike:index' %}" class="btn btn-primary">Back to the previous page</a>
+
+</div>
+{% endblock %}

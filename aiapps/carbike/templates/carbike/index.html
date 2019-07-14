@@ -1,0 +1,21 @@
+{% extends 'carbike/base.html' %}
+{% block title %}車・バイク推定アプリメニュー{% endblock %}
+
+{% block content %}
+<div>
+    <h4 class="mt-4 mb-5 border-bottom">Prediction of Car and Bike</h4>
+    <p>Please select an image file and click a "predict" button bellow.</p>
+　　<form action="{% url 'carbike:predict' %}" method="post" class="form" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="form-group">
+        <div class="custom-file">
+            {{ form.image }}
+            <label class="custom-file-label" for="customFile">
+                Please select an image file.
+            </label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">predict！</button>
+　　</form>
+</div>
+{% endblock %}
