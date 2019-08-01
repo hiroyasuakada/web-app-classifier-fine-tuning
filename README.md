@@ -7,7 +7,9 @@ djangoai
 
 ## Description
 
-Web application for Image Recognition of car and moterbike using Keras, Django 
+Web application for Image Recognition of car and moterbike using Keras, Django
+
+keyword: Python, Django, TensorFlow, cnn, transfer learning, fine-tuning
 
 ## Demo
 
@@ -21,6 +23,18 @@ Web application for Image Recognition of car and moterbike using Keras, Django
 ## Dependency
 
 ## Usage
+
+1. Collecting data by cloning (FlickerAPI + urlretrieve)
+
+2. Converting the collected data values to numpy file 
+3, Processing learning phase on cnn, transfer learning
+4, Saving the result of learning as h5 file
+5. Implementing web application using django 2.2
+6. Uploading images and predicting it with AI model created in phase 1~4
+7. Optimizing layout by using Bootstrap 4
+
+
+
 
 ## References
 
