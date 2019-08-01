@@ -24,4 +24,4 @@ Web application for Image Recognition of car and moterbike using Keras, Django
 
 ## References
 
-[Udemy]: https://www.udemy.com/django-ai-app/ "Python・Django・TensorFlow + 転移学習】画像分類AIアプリ自作入門"
+<https://www.udemy.com/django-ai-app/>
