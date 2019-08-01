@@ -22,6 +22,13 @@ keyword: Python, Django, TensorFlow, cnn, transfer learning, fine-tuning
 
 # Dependency
 
+python 3.7.3
+numpy 1.16.4
+sklearn 0.21.2
+tensorflow 1.13.1
+django 2.2.2
+django-bootstrap4 0.0.8
+
 # Usage
 
 ## 1. Collecting data by cloning (FlickerAPI + urlretrieve)
