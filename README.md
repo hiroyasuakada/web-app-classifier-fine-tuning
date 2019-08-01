@@ -9,7 +9,7 @@ djangoai
 
 Web application for Image Recognition of car and moterbike using Keras, Django
 
-keyword: Python, Django, TensorFlow, keras, cnn, transfer learning, fine-tuning
+keyword: python, django, tensorFlow, keras, cnn, transfer learning, fine-tuning
 
 # Demo
 
