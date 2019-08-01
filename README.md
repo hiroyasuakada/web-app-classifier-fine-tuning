@@ -11,9 +11,9 @@ Web application for Image Recognition of car and moterbike using Keras, Django
 
 ## Demo
 
-![car1](https://github.com/akadahiroyasu/djangoai/blob/master/images/window_1.png)
+![car1](https://github.com/akadahiroyasu/djangoai/blob/master/images_for_readme/window_1.png)
 
-![car2](https://github.com/akadahiroyasu/djangoai/blob/master/images/window_2.png)
+![car2](https://github.com/akadahiroyasu/djangoai/blob/master/images_for_readme/window_2.png)
 
 
 ## VS. 
