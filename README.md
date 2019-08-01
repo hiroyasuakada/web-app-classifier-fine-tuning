@@ -20,7 +20,7 @@ keyword: Python, Django, TensorFlow, cnn, transfer learning, fine-tuning
 ![car2](https://github.com/akadahiroyasu/djangoai/blob/master/images_for_readme/window_2.png)
 
 
-## Dependency
+# Dependency
 
 ## Usage
 
