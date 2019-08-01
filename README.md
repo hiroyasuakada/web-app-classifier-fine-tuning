@@ -18,20 +18,10 @@ Web application for Image Recognition of car and moterbike using Keras, Django
 ![car2](https://github.com/akadahiroyasu/djangoai/blob/master/images_for_readme/window_2.png)
 
 
-## VS. 
-
-## Requirement
+## Dependency
 
 ## Usage
 
-## Install
+## References
 
-## Contribution
-
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
-## Author
-
-[tcnksm](https://github.com/tcnksm)
+[Udemy]: https://www.udemy.com/django-ai-app/ "Python・Django・TensorFlow + 転移学習】画像分類AIアプリ自作入門"
